@@ -1,0 +1,46 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+</head>
+<body>
+
+    <header>
+        <h1>
+            Hello World MVC
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a asp-controller="Home" asp-action="Index">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Home" asp-action="Music">
+                    Music
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Home" asp-action="Sports">
+                    Sports
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        @RenderBody()
+    </main>
+
+   
+
+</body>
+</html>
