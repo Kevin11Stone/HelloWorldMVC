@@ -14,6 +14,15 @@ namespace AlmostEmptyWebsite.Controllers
             return View();
         }
 
+        public IActionResult Music()
+        {
+            return View();    
+        }
+
+        public IActionResult Sports()
+        {
+            return View();
+        }
 
     }
 }
