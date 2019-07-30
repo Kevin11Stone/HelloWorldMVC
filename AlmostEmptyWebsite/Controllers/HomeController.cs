@@ -24,5 +24,10 @@ namespace AlmostEmptyWebsite.Controllers
             return View();
         }
 
+        public IActionResult Comedians()
+        {
+            return View();
+        }
+
     }
 }
